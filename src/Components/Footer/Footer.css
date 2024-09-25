@@ -1,0 +1,33 @@
+.footer {
+    width: 100%;
+    background-color: var(--main-color);
+    border-top: 5px solid var(--secondary-color);
+    margin-top: 2rem;
+}
+.foot-holder {
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+.foot-left img{
+    width: 250px;
+    height: auto;
+}
+.link-holder {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.link-holder a img {
+    width: 35px;
+    height: 35px;
+}
+.foot-copy {
+    background-color: black;
+    margin: 0;
+    width: 100%;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

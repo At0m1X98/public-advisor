@@ -1,0 +1,65 @@
+.team {
+    width: 100%;
+    margin-top: 8rem;
+    background-color: var(--secondary-color);
+    color: var(--main-color);
+    padding-top: 5rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.employees {
+    width: 65vw;
+    display: flex;
+    flex-direction: column;
+}
+.employees h1 {
+    text-align: center;
+    font-size: 5rem;
+    line-height: 0;
+    display: flex;
+    justify-content: center;
+}
+.emp-img img {
+    width: 375px;
+    height: 375px;
+    z-index: 1;
+}
+.emp-info {
+    background-color: rgba(160, 160, 160, 0.5);
+    width: 475px;
+    height: 328px;
+    z-index: 2;
+}
+.left {
+    display: flex;
+    justify-content: flex-start;
+    height: 650px;
+}
+.right {
+    display: flex;
+    justify-content: flex-end;
+    height: 650px;  
+}
+.left .emp-info {
+    position: relative;
+    top: -120px;
+    left: 250px;
+}.right .emp-info {
+    position: relative;
+    top: -120px;
+    left: -350px;
+}
+.emp-logo {
+    position: relative;
+    top: -400px;
+    opacity: 0.5;    
+}
+.left .emp-logo {
+    left: 800px;
+}
+.right .emp-logo {
+    right: 900px;
+    transform: scaleX(-1);
+}

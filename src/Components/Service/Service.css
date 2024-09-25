@@ -1,0 +1,35 @@
+.service {
+    margin-top: 8rem;
+    width: 75vw;
+}
+.ser-intro {
+    text-align: center;
+}
+.ser-intro button {
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    border: 1px solid var(--secondary-color);
+    font-size: 1.5rem;
+    padding: 8px 15px;
+    font-family: "Oswald", sans-serif;
+}
+.ser-intro button:hover {
+    background-color: var(--main-color);
+    color: var(--secondary-color);
+    cursor: pointer;
+}
+.ser-category {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items:start;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+.ser {
+    border: 1px solid var(--secondary-color);
+    width: 32vw;
+    height: 8vh;
+    padding: 25px;
+    line-height: 1rem;
+}
