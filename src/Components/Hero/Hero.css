@@ -1,0 +1,49 @@
+.hero {
+    width: 75vw;
+    margin-top: 2rem;
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: 45%;
+}
+.hero-left {
+    width: 40%;
+    margin-right: auto;
+}
+.hero-left h1 {
+    font-family: "Oswald", sans-serif;;
+    font-size: 5rem;
+    line-height: 4.25rem;
+}
+.hero-left button {
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    border: 1px solid var(--secondary-color);
+    font-size: 1.5rem;
+    padding: 8px 15px;
+    font-family: "Oswald", sans-serif;
+}
+.hero-left button:hover {
+    background-color: var(--main-color);
+    color: var(--secondary-color);
+    cursor: pointer;
+}
+.hero-right {
+    width: 50%;
+}
+.hero-right img {
+    width: 100%;
+    height: 400px;
+}
+.but-holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+.but-holder button {
+    width: 8px;
+    height: 12px;
+    border: black;
+    background-color: lightgray;
+    border-radius: 50%;
+}

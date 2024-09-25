@@ -1,0 +1,30 @@
+:root {
+    --font-size: 1rem;
+    --main-color: #14416B;
+    --secondary-color: rgb(130, 130, 130);
+    --text-color: #FFFFFF;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    color: var(--text-color);
+    background-color: var(--main-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Oswald", sans-serif;
+    font-size: 1.15rem;
+}
+.oneforall {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.arrow {
+    margin: 4rem;
+    width: 60px;
+    height: 25px;
+}
